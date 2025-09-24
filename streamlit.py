@@ -1282,7 +1282,7 @@ def show_login():
     st.markdown('</div>', unsafe_allow_html=True)
     
     st.markdown("---")
-    st.info("💡 **Setup Instructions**)
+    st.info("JK")
 
 def check_authentication():
     """Check if user is authenticated with session timeout"""
