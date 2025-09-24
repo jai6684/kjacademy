@@ -1,0 +1,38 @@
+{
+	"appId": "com.kjbadmintonacademy.app",
+	"appName": "KJ Badminton Academy",
+	"webDir": "dist",
+	"server": {
+		"androidScheme": "https",
+		"url": "https://YOUR_REPLIT_URL_HERE",
+		"allowNavigation": [
+			"https://*.repl.co",
+			"https://*.replit.dev",
+			"https://*.replit.app"
+		]
+	},
+	"android": {
+		"backgroundColor": "#ffffff",
+		"allowMixedContent": false,
+		"captureInput": true,
+		"webContentsDebuggingEnabled": false
+	},
+	"ios": {
+		"contentInset": "automatic",
+		"backgroundColor": "#ffffff",
+		"allowsLinkPreview": false,
+		"handleApplicationNotifications": false,
+		"scheme": "kjacademy"
+	},
+	"plugins": {
+		"StatusBar": {
+			"style": "default",
+			"backgroundColor": "#1f77b4"
+		},
+		"SplashScreen": {
+			"launchShowDuration": 2000,
+			"backgroundColor": "#1f77b4",
+			"showSpinner": false
+		}
+	}
+}
