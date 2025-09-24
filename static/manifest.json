@@ -1,0 +1,28 @@
+{
+  "name": "KJ Badminton Academy",
+  "short_name": "KJ Academy",
+  "description": "Badminton court management system for KJ Badminton Academy",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1f77b4",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/static/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/static/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["business", "productivity", "sports"],
+  "lang": "en",
+  "dir": "ltr"
+}
