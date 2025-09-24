@@ -1267,7 +1267,7 @@ def show_login():
         if submitted:
             # Get credentials from environment variables for security
             admin_username = os.getenv("ADMIN_USERNAME", "admin")
-            admin_password = os.getenv("ADMIN_PASSWORD", "kjbadminton2024")
+            admin_password = os.getenv("ADMIN_PASSWORD", "kjbadminton2025")
             
             if username == admin_username and password == admin_password:
                 st.session_state.authenticated = True
