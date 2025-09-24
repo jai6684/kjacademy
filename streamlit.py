@@ -1267,7 +1267,7 @@ def show_login():
         if submitted:
             # Get credentials from environment variables for security
             admin_username = os.getenv("ADMIN_USERNAME", "admin")
-            admin_password = os.getenv("ADMIN_PASSWORD", "kjbadmintonpk2025")
+            admin_password = os.getenv("ADMIN_PASSWORD", "kjbadminton2024")
             
             if username == admin_username and password == admin_password:
                 st.session_state.authenticated = True
@@ -1282,7 +1282,7 @@ def show_login():
     st.markdown('</div>', unsafe_allow_html=True)
     
     st.markdown("---")
-    st.info("💡 **Setup Instructions:**\nSet environment variables ADMIN_USERNAME and ADMIN_PASSWORD for secure login.\nDefault fallback: admin / kjbadminton2024")
+    st.info("💡 **Setup Instructions**)
 
 def check_authentication():
     """Check if user is authenticated with session timeout"""
